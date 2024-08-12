@@ -1,0 +1,32 @@
+.px-20{
+    width: 100%;
+    min-height: 100Vh;
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)) , url('../../assets/counter-img.jpg');
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+
+.header{
+ 
+   text-align: center; 
+   padding-top: 100px;
+    
+
+}
+
+h3{
+    font-size: 3rem;
+   
+}
+
+
+.count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    gap: 100px;
+    margin-top: 100px;
+
+}
