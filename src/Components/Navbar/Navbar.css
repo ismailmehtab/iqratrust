@@ -1,6 +1,6 @@
 nav{
     width: 100%;
-    background: #c9c7c7;
+    /* background: #c9c7c7; */
     color: #fff;
     padding: 4px 0;
     position: fixed;
@@ -21,7 +21,7 @@ nav ul li {
     list-style: none;
     margin: 3px 25px;
     font-size: 16px;
-    color: #2b51d0;
+    color: #122e8b;
   
 }
 .btn-nav{

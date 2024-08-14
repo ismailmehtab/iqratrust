@@ -1,4 +1,5 @@
 import React from "react";
+import './SubSlider.css'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import img1 from "../../assets/01.jpg";
@@ -31,7 +32,7 @@ const SubSlider = () => {
   };
 
   return (
-    <div>
+    <div className="subslider">
       <Carousel
       
         swipeable={false}
@@ -47,7 +48,7 @@ const SubSlider = () => {
         customTransition="all .5"
         transitionDuration={500}
       >
-        <div>
+        <div className="subslider1">
           <img src={img1} alt="" />
         </div>
         <div>
@@ -69,7 +70,7 @@ const SubSlider = () => {
           <img src={img7} alt="" />
         </div>
       </Carousel>
-      ;
+      
     </div>
   );
 };
