@@ -7,6 +7,9 @@ import Counter from './Components/Counter/Counter'
 import SubSlider from './Components/SubSlider/SubSlider'
 import Features from './Components/Features/Features'
 import Features1 from './Components/Features1/Features1'
+import Footer from './Components/Footer/Footer'
+
+
 
 
 
@@ -15,7 +18,6 @@ import Features1 from './Components/Features1/Features1'
 const App = () => {
   return (
     <div>
-      
       <Navbar/>
       <Slider/>
       <Hero/>
@@ -24,6 +26,7 @@ const App = () => {
       {/* <Features/> */}
       <Features1/>
       <SubSlider/>
+      <Footer/>
      
  </div>
   )
