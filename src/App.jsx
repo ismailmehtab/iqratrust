@@ -8,6 +8,7 @@ import SubSlider from './Components/SubSlider/SubSlider'
 import Features from './Components/Features/Features'
 import Features1 from './Components/Features1/Features1'
 import Footer from './Components/Footer/Footer'
+import IntroLinks from './Components/pages/IntroLinks'
 
 
 
@@ -26,6 +27,7 @@ const App = () => {
       {/* <Features/> */}
       <Features1/>
       <SubSlider/>
+      <IntroLinks/>
       <Footer/>
      
  </div>

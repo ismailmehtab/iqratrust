@@ -1,0 +1,17 @@
+.sidebar-cat-list{
+    width: 50vh;
+    margin-bottom: 20px;
+}
+
+.intro-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10rem;
+    margin: 10px;
+    padding-bottom: 10px;
+    
+}
+.sidebar-cat-list ul li{
+    border-bottom: 1px dashed #c7c7c7;
+}
