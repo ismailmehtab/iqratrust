@@ -5,12 +5,8 @@ import Programs from './Components/Programs/Programs'
 import Slider from './Components/Slider/Slider'
 import Counter from './Components/Counter/Counter'
 import SubSlider from './Components/SubSlider/SubSlider'
-import Features from './Components/Features/Features'
 import Features1 from './Components/Features1/Features1'
 import Footer from './Components/Footer/Footer'
-import IntroLinks from './Components/pages/IntroLinks'
-
-
 
 
 
@@ -19,7 +15,9 @@ import IntroLinks from './Components/pages/IntroLinks'
 const App = () => {
   return (
     <div>
-      <Navbar/>
+      
+      
+       <Navbar/>
       <Slider/>
       <Hero/>
       <Programs/>
@@ -27,7 +25,7 @@ const App = () => {
       {/* <Features/> */}
       <Features1/>
       <SubSlider/>
-      <IntroLinks/>
+      {/* <IntroLinks/> */}
       <Footer/>
      
  </div>

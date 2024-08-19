@@ -2,6 +2,11 @@ import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import logo from '../../assets/color-logo.png'
 
+
+
+
+
+
 const Navbar = () => {
 
   const [sticky, setSticky] = useState(false);
@@ -17,6 +22,7 @@ const Navbar = () => {
      <nav className = {`container ${sticky ? 'dark-nav' : ''}`}  >
         
         <ul>
+         
             <li><button className='btn-nav'>رابطہ</button></li>
             <li>ویڈیوز</li>
             <li>بانیان</li>
