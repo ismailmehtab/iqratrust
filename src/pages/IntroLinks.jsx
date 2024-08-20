@@ -1,6 +1,7 @@
 import React from "react";
 import "./IntroLinks.css";
 import { DoubleRightOutlined } from "@ant-design/icons";
+import mujallah from '../assets/thumb_majalla.jpg'
 
 const IntroLinks = () => {
   return (
@@ -122,6 +123,10 @@ const IntroLinks = () => {
           </a>
         </li>
       </ul>
+
+      <div className="img-mujallah">
+          <img src={mujallah} alt="" />
+      </div>
     </div>
   );
 };

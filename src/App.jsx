@@ -1,5 +1,5 @@
 import React from 'react'
-import Navbar from './Components/Navbar/Navbar'
+
 import Hero from './Components/Hero/Hero'
 import Programs from './Components/Programs/Programs'
 import Slider from './Components/Slider/Slider'
@@ -17,7 +17,7 @@ const App = () => {
     <div>
       
       
-       <Navbar/>
+       
       <Slider/>
       <Hero/>
       <Programs/>
@@ -26,7 +26,7 @@ const App = () => {
       <Features1/>
       <SubSlider/>
       {/* <IntroLinks/> */}
-      <Footer/>
+  
      
  </div>
   )

@@ -2,15 +2,41 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import { BrowserRouter } from 'react-router-dom';
+import Layout from './Layout.jsx'
+import Introduction from './pages/Introduction.jsx'
+import Foundertrustee from './pages/Foundertrustee.jsx'
+import Videos from './pages/Videos.jsx'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
+const router = createBrowserRouter([
+  {
+    path:'/',
+    element: <Layout/>,
+    children:[
+      {
+        path:"/",
+        element: <App/>
+      },
+      {
+        path:"introduction",
+        element: <Introduction/>
+      },
+      {
+        path:"foundertrustee",
+        element: <Foundertrustee/>
+      },
+      {
+        path:"videos",
+        element: <Videos/>
+      }
+    ]
 
+  }
+])
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-  <BrowserRouter>
-    <App />
-    </BrowserRouter>
+  <RouterProvider  router={router}/>
   </React.StrictMode>
 );
