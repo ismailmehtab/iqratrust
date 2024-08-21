@@ -8,9 +8,21 @@
 }
 .card-section{
     width: 70%;
-    margin: 20px 300px 50px 300px;
+   margin: 20px 300px 50px 300px;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
+    
+    
 }
+.card-section  img:hover{
+    transform: perspective(600px) rotateY(360deg);
+    transition: 1.5s ease-in-out;
+}
+.card-div{
+    box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
+    
+}
+
+

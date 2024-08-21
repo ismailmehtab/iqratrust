@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import logo from '../../assets/color-logo.png'
+import flogo from '../../assets/IqraMonogram.png'
 import {Link,NavLink} from 'react-router-dom'
 
 
@@ -31,7 +32,7 @@ const Navbar = () => {
             <li><NavLink to="/">سرورق</NavLink></li>
             
          </ul>
-        <img src={logo} alt='logo' className='logo'/>
+        <img  src={flogo} alt='logo' className='logo'/>
         
     </nav>
   )
