@@ -2,6 +2,9 @@ import React from "react";
 import "./IntroLinks.css";
 import { DoubleRightOutlined } from "@ant-design/icons";
 import mujallah from '../assets/thumb_majalla.jpg'
+import {Link,NavLink} from 'react-router-dom'
+
+
 
 const IntroLinks = () => {
   return (
@@ -10,16 +13,26 @@ const IntroLinks = () => {
 
       <ul>
         <li>
-          <a href="">
-            <div className="intro-list">
+          <a href="introduction">
+          <div className="intro-list">
                 <div><DoubleRightOutlined /></div>
                 <div>اقرأ روضۃ الاطفال</div>
+            </div>
+          </a>
+            
+          
+        </li>
+        <li>
+          <a href="foundertrustee">
+            <div className="intro-list">
+                <div><DoubleRightOutlined /></div>
+                <div>اقرأ روضۃ الاطفال کے بانیان ،عہدیداران ٹرسٹیز</div>
             </div>
           </a>
         </li>
 
         <li>
-          <a href="">
+          <a href="preparatoryForVIClass">
             <div className="intro-list">
                 <div><DoubleRightOutlined /></div>
                 <div>(P-VI) Preparatory For VI Class</div>
