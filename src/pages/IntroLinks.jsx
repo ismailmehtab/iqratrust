@@ -2,7 +2,7 @@ import React from "react";
 import "./IntroLinks.css";
 import { DoubleRightOutlined } from "@ant-design/icons";
 import mujallah from '../assets/thumb_majalla.jpg'
-import {Link,NavLink} from 'react-router-dom'
+import {Link,NavLink ,Outlet} from 'react-router-dom'
 
 
 
@@ -13,17 +13,20 @@ const IntroLinks = () => {
 
       <ul>
         <li>
-          <a href="introduction">
-          <div className="intro-list">
+          
+          
+           <NavLink to="introduction">
+           <div className="intro-list">
                 <div><DoubleRightOutlined /></div>
                 <div>اقرأ روضۃ الاطفال</div>
             </div>
-          </a>
-            
+           </NavLink>
+           
+           
           
         </li>
         <li>
-          <a href="foundertrustee">
+          <a href="">
             <div className="intro-list">
                 <div><DoubleRightOutlined /></div>
                 <div>اقرأ روضۃ الاطفال کے بانیان ،عہدیداران ٹرسٹیز</div>
@@ -32,12 +35,19 @@ const IntroLinks = () => {
         </li>
 
         <li>
-          <a href="preparatoryForVIClass">
+          <a herf="">
             <div className="intro-list">
                 <div><DoubleRightOutlined /></div>
                 <div>(P-VI) Preparatory For VI Class</div>
             </div>
-          </a>
+            </a>
+            <NavLink to="preparatoryForVIClass">
+           <div className="intro-list">
+                <div><DoubleRightOutlined /></div>
+                <div>(P-VI) Preparatory For VI Class</div>
+            </div>
+           </NavLink>
+
         </li>
         <li>
           <a href="">
@@ -140,7 +150,9 @@ const IntroLinks = () => {
       <div className="img-mujallah">
           <img src={mujallah} alt="" />
       </div>
+      <Outlet />
     </div>
+    
   );
 };
 

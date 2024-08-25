@@ -24,6 +24,7 @@ const Videos = () => (
   <div className="card-container">
     <div className="card-section">
    <div className="card-div">
+   <a href='https://www.youtube.com/watch?v=fGj4kUZVA-Q' target="_blank">
    <Card
     style={{
       width: 400,
@@ -46,11 +47,12 @@ const Videos = () => (
       description="This is the description"
     />
  </Card>
+   </a>
    </div>
 
 
    <div className="card-div">
-   <Card
+   <a href='https://www.youtube.com/watch?v=QPThmtwthns&t=25s' target="_blank"><Card
     style={{
       width: 400,
       
@@ -72,7 +74,7 @@ const Videos = () => (
       title="شعبہ روضہ اور شعبہ قاعدہ کے داخلوں کی ترتیب کراچی زون1"
       description="This is the description"
     />
-</Card>
+</Card></a>
    </div>
 
    <div className="card-div">
@@ -214,7 +216,7 @@ const Videos = () => (
 
 
    <div className="card-div">
-   <Card
+   <a href='https://www.youtube.com/watch?v=muOJEJ547Yw'><Card
     style={{
       width: 400,
     }}
@@ -235,7 +237,7 @@ const Videos = () => (
       title="برانچوں کی وضاحت"
       description="This is the description"
     />
-</Card>
+</Card></a>
    </div>
 
    <div className="card-div">
