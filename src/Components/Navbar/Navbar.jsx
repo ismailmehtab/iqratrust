@@ -25,7 +25,6 @@ const Navbar = () => {
         <ul>
          
             <li><button className='btn-nav'>رابطہ</button></li>
-           
             <li><NavLink to="videos">ویڈیوز</NavLink></li>
             <li><NavLink to="foundertrustee">بانیان</NavLink></li>
             <li><NavLink to="introduction">تعارف</NavLink></li>

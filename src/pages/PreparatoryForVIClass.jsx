@@ -17,10 +17,9 @@ const PreparatoryForVIClass = () => {
             <h3> Preparatory For VI Class(P-VI)</h3>
             <br />
             <p>
-           
-
-
-              
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
+              placeat, aperiam quasi aspernatur ea eaque consectetur impedit
+              iusto. Atque, natus!
             </p>
           </div>
         </div>

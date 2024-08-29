@@ -15,32 +15,29 @@ const IntroLinks = () => {
         <li>
           
           
-           <NavLink to="introduction">
+        <NavLink to="introduction">
            <div className="intro-list">
+           
                 <div><DoubleRightOutlined /></div>
                 <div>اقرأ روضۃ الاطفال</div>
+                
             </div>
-           </NavLink>
+            </NavLink>
            
            
           
         </li>
         <li>
-          <a href="">
+          <NavLink to="foundertrustee">
             <div className="intro-list">
                 <div><DoubleRightOutlined /></div>
                 <div>اقرأ روضۃ الاطفال کے بانیان ،عہدیداران ٹرسٹیز</div>
             </div>
-          </a>
+          </NavLink>
         </li>
 
         <li>
-          <a herf="">
-            <div className="intro-list">
-                <div><DoubleRightOutlined /></div>
-                <div>(P-VI) Preparatory For VI Class</div>
-            </div>
-            </a>
+          
             <NavLink to="preparatoryForVIClass">
            <div className="intro-list">
                 <div><DoubleRightOutlined /></div>
@@ -146,11 +143,11 @@ const IntroLinks = () => {
           </a>
         </li>
       </ul>
-
+      
       <div className="img-mujallah">
           <img src={mujallah} alt="" />
       </div>
-      <Outlet />
+      
     </div>
     
   );

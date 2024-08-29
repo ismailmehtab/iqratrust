@@ -1,6 +1,7 @@
 import React from "react";
 import './Introduction.css'
 import IntroLinks from './IntroLinks'
+import { Outlet } from "react-router-dom";
 
 const Introduction = () => {
   return (
@@ -146,7 +147,9 @@ const Introduction = () => {
         </p>
       </div>
        </div>
+      
  </div>
+ <Outlet/>
     </>
   );
 };
