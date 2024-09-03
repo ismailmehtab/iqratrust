@@ -1,9 +1,33 @@
+.main-content{
+    width: 80%;
+    display: flex;
+     align-content: center;
+     justify-content: space-between;
+     margin-top: 4rem;
+     gap: 70px;
+     margin-left: 10rem;
+
+}
+.outlet-con{
+    /* align-content: center; */
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
 .sidebar-cat-list{
+    margin-top: 100px;
+    display: flexs;
+    align-items: center;
+    justify-content: space-between;
+    color: #121212;
     width: 50vh;
     margin-bottom: 20px;
+    font-size: small;
 }
 
 .intro-list{
+    color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -13,7 +37,9 @@
     
 }
 .sidebar-cat-list ul li{
-    border-bottom: 1px dashed #c7c7c7;
+    border-bottom: 1px dashed #121212;
+    list-style: none;
+    text-decoration: none;
 }
 .sidebar-cat-list ul li {
     list-style: none;

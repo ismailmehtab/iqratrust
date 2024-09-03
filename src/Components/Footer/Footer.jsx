@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-
+import {Link,NavLink ,Outlet} from 'react-router-dom'
 import fb from "../../assets/facebook-1.webp";
 import youtube from "../../assets/youtube.png";
 import instta from "../../assets/instagram.png";
@@ -31,65 +31,65 @@ const Footer = () => {
 
           <div className="sb-footer-links-div">
             <h4>رابطہ</h4>
-            <a href="/employer">
-              <p> بلاک بی نارتھ ناظم آبادکراچی G-36</p>
-            </a>
-            <a href="/heatlhplan">
-              <p>iqratrustkhi@gmail.com</p>
-            </a>
-            <a href="/individual">
-              <p>021-36677321</p>
-            </a>
-            <a href="/individual">
-              <p>021-36677322</p>
-            </a>
+            <Link to="">
+              <p className="footer-text"> بلاک بی نارتھ ناظم آبادکراچی G-36</p>
+            </Link >
+            <Link to="">
+              <p className="footer-text">iqratrustkhi@gmail.com</p>
+            </Link >
+            <Link to="">
+              <p className="footer-text">021-36677321</p>
+            </Link >
+            <Link to="">
+              <p className="footer-text">021-36677322</p>
+            </Link >
           </div>
           <div className="sb-footer-links-div">
             <h4>تعلیمی لنکس</h4>
-            <a href="/resources">
-              <p>بنیادی مقاصد</p>
-            </a>
-            <a href="/resources">
-              <p>نصاب تعلیم</p>
-            </a>
-            <a href="/resources">
-              <p>داخلہ کے کیلئےمقررکردہ شرائط و ضوابط</p>
-            </a>
-            <a href="/resources">
-              <p className="">Iqra Preparatory For VI Class</p>
-            </a>
-            <a href="/resources">
-              <p className="">اقرأ حفاظ سیکنڈری اسکول</p>
-            </a>
+            <Link to="purposes">
+              <p className="footer-text">بنیادی مقاصد</p>
+            </Link >
+            <Link to="educationsystem">
+              <p className="footer-text">نظام تعلیم</p>
+            </Link >
+            <Link to="termsconditions">
+              <p className="footer-text">داخلہ کے کیلئےمقررکردہ شرائط و ضوابط</p>
+            </Link >
+            <Link to="">
+              <p className="footer-text">Iqra Preparatory For VI Class</p>
+            </Link >
+            <Link to="">
+              <p className="footer-text">اقرأ حفاظ سیکنڈری اسکول</p>
+            </Link >
           </div>
-          <div className="sb-footer-links-div">
+        <div className="sb-footer-links-div">
             <h4>شعبہ جات</h4>
-            <a href="/resources">
-              <p>شعبہ حفظ</p>
-            </a> <a href="/resources">
-              <p>شعبہ قاعدہ</p>
-            </a>
-            <a href="/resources">
-              <p>شعبہ روضہ</p>
-            </a>
-            <a href="/resources">
-              <p>اقرأ حفاظ اسکول</p>
-            </a>
-            <a href="/resources">
-              <p> اقرأ حفاظ کالج</p>
-            </a>
-
-          </div>
+            <Link to="">
+              <p className="footer-text">شعبہ حفظ</p>
+            </Link> 
+           <Link to="">
+              <p className="footer-text">شعبہ قاعدہ</p>
+            </Link >
+            <Link to="">
+              <p className="footer-text">شعبہ روضہ</p>
+            </Link >
+            <Link to="">
+              <p className="footer-text">اقرأ حفاظ اسکول</p>
+            </Link >
+            <Link to="">
+              <p className="footer-text">  اقرأ حفاظ کالج</p>
+            </Link >
+       </div>
           <div className="sb-footer-links-div">
             <h4>اقرأ</h4>
-            <a href="/about">
+            
               <p className="footer-para">
                 اقراء دنیا کی تعلیمی امتزاج کا پہلا ادارہ ہے جس کے نتائج دنیا
                 میں مسلم ہیں، اس ادارے کو اس میں مرکزی حیثیت حاصل ہے جس کو دیکھ
                 کر بعد میں بہت لوگوں نے اس طریقہ کار کو اپنے تعلمی ادارے میں
                 اختیار کیا۔
               </p>
-            </a>
+            
             
           </div>
         </div>
@@ -99,16 +99,16 @@ const Footer = () => {
             <p>@{new Date().getFullYear()} All right recerved.</p>
           </div>
           <div className="sb-footer-below-link">
-            <a href="/terms">
+          <Link to="">
               <div>
-                <p>Terms & Conditions</p>
+                <p className="footer-text">Terms & Conditions</p>
               </div>
-            </a>
-            <a href="/privacy">
+            </Link >
+            <Link to="">
               <div>
-                <p>Privacy</p>
+                <p className="footer-text">Privacy</p>
               </div>
-            </a>
+            </Link >
             
           </div>
         </div>

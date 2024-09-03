@@ -1,25 +1,25 @@
 import React from "react";
 import "../pages/Foundertrustee.css";
 import IntroLinks from "./IntroLinks";
-
+import iqratrust from"../assets/IqraRauzatulAtfal.png"
 const Foundertrustee = () => {
   return (
     <>
       <div className="intro-container">
         <header className="header">
           <h4 className="heading">
-            اقرأ روضۃ الاطفال کے بانیان ،عہدیداران ٹرسٹیز
+          <img src={iqratrust} alt="" className="iqratrust" />
           </h4>
         </header>
         <div className="intro-content">
-          <aside className="links-list">
+          {/* <aside className="links-list">
             <IntroLinks />
-          </aside>
+          </aside> */}
           <div className="intro-detail">
-            <h4 className="sub-heading">
-              {" "}
+            <h3 className="sub-heading">
+             
               اقرأ روضۃ الاطفال کے بانیان ،عہدیداران ٹرسٹیز
-            </h4>
+            </h3>
             <section className="section-1">
               بانی و صدرِ اول:
               <br />

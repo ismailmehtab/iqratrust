@@ -12,7 +12,7 @@ const Counter = () => {
        
        <div className="header">
        <h3>اعداد و شمار</h3>
-       <p>اقراء مدرسہ و اسکولنگ سسٹم، آئینہ اعداد وشمار</p>
+       <h3 className="counter-sub-heading">اقراء مدرسہ و اسکولنگ سسٹم، آئینہ اعداد وشمار</h3>
        </div>
        
        

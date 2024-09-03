@@ -1,9 +1,7 @@
 import React from "react";
-import "./PreparatoryForVIClass.css";
 import IntroLinks from "./IntroLinks";
 import iqratrust from"../assets/IqraRauzatulAtfal.png"
-
-const PreparatoryForVIClass = () => {
+const Educationsystem = () => {
   return (
     <>
       <div className="intro-container">
@@ -15,12 +13,17 @@ const PreparatoryForVIClass = () => {
             <IntroLinks />
           </aside> */}
           <div className="intro-detail">
-            <h3> Preparatory For VI Class(P-VI)</h3>
+            <h3> نظامِ تعلیم</h3>
             <br />
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque
-              placeat, aperiam quasi aspernatur ea eaque consectetur impedit
-              iusto. Atque, natus!
+              <h4>پہلا مرحلہ</h4> 
+              <br/>
+              شعبہ روضہ،شعبہ قاعدہ ،شعبہ ناظرہ و حفظ ابتداء
+              <br/>
+              اوقات تعلیم:یومیہ پانچ گھنٹے/چھ گھنٹے (ایک سال روضہ ،دوسرا سال قاعدہ /ناظرہ ،تیسرا سال ناظرہ مع حفظ) 
+              <br/>
+              کل مدت: تین سال 
+           
             </p>
           </div>
         </div>
@@ -29,4 +32,4 @@ const PreparatoryForVIClass = () => {
   );
 };
 
-export default PreparatoryForVIClass;
+export default Educationsystem;

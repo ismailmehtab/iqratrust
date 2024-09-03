@@ -1,22 +1,28 @@
 import React from "react";
 import './Introduction.css'
 import IntroLinks from './IntroLinks'
-import { Outlet } from "react-router-dom";
+import iqratrust from "../assets/IqraRauzatulAtfal.png"
+
 
 const Introduction = () => {
   return (
     <>
       <div className="intro-container">
+        <div className="sub-container">
+        <div>
         <header className="header">
-        <h3 className="heading">اقرأروضۃالاطفال</h3>
+          <img className="iqratrust" src={iqratrust} alt=""/>
+        {/* <h3 className="heading">اقرأروضۃالاطفال</h3> */}
        </header>
+        </div>
        <div className="intro-content">
-       <aside className="links-list"> 
+       {/* <aside className="links-list"> 
           <IntroLinks/>
-       </aside>
+       </aside> */}
+      
         <div className="intro-detail">
         <h4>اقرأ روضۃ الاطفال</h4>
-        <p>
+        <p >
           قوموں کے عروج و زوال اور ان کے بننے بگڑنے میں تعلیم سب سے موثر ذریعہ
           ہے، خصوصاً چھوٹے اور معصوم بچوں کی تعلیم اگر ابتدا ہی سے بہتر انداز سے
           ہو اور انہیں ایسی بنیادی تعلیم دی جائے جومستقبل میں ان کی زندگی پر
@@ -146,10 +152,11 @@ const Introduction = () => {
            سوئے قطار می کشم ناقۂ بے زمام را
         </p>
       </div>
+      </div>
        </div>
       
  </div>
- <Outlet/>
+ 
     </>
   );
 };

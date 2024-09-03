@@ -7,10 +7,15 @@
     color: #fff;
 }
 
+
 .header{
     
    text-align: center; 
+   justify-content: center;
    padding-top: 100px;
+}
+.counter-sub-heading{
+    font-size: 2rem;
 }
 
 h3{

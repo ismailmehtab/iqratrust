@@ -24,9 +24,10 @@ const Videos = () => (
   <div className="card-container">
     <div className="card-section">
    <div className="card-div">
-   <a href='https://www.youtube.com/watch?v=fGj4kUZVA-Q' target="_blank">
+   <a href='https://www.youtube.com/watch?v=fGj4kUZVA-Q' target="_blank" >
    <Card
     style={{
+      
       width: 400,
       }}
     cover={
@@ -39,6 +40,7 @@ const Videos = () => (
       <SettingOutlined key="setting" />,
       <EditOutlined key="edit" />,
       <EllipsisOutlined key="ellipsis" />,
+      
     ]}
   >
  <Meta 
