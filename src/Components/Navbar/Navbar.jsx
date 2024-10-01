@@ -23,12 +23,14 @@ const Navbar = () => {
      <nav className = {`container ${sticky ? 'dark-nav' : ''}`}  >
         
         <ul>
-         
+        
             <li><button className='btn-nav'>رابطہ</button></li>
+            <li><NavLink to="login">Login</NavLink></li>
             <li><NavLink to="videos">ویڈیوز</NavLink></li>
-            <li><NavLink to="foundertrustee">بانیان</NavLink></li>
-            <li><NavLink to="introLinks">تعارف</NavLink></li>
+            <li><NavLink to="introLinks/foundertrustee">بانیان</NavLink></li>
+            <li><NavLink to="introLinks/introduction">تعارف</NavLink></li>
             <li><NavLink to="/">سرورق</NavLink></li>
+
             
          </ul>
         <img  src={flogo} alt='logo' className='logo'/>

@@ -9,7 +9,7 @@ const IntroLinks = () => {
   return (
     <div className="main-content">
       <div className="sidebar-cat-list">
-      <h4>تعارفی صفحات</h4>
+      <h4 className="sidebar-list-heading">تعارفی صفحات</h4>
 
       <ul>
         <li>

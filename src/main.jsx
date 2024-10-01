@@ -21,13 +21,17 @@ import { Outlet } from "react-router-dom";
 // import Root,{loader as rootLoader} from '../src/pages/IntroLinks.jsx'
 import Videos from "./pages/Videos.jsx";
 import PreparatoryForVIClass from "./pages/PreparatoryForVIClass.jsx";
+import Login from "./pages/Login.jsx"
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import LoginForm from "./pages/LoginForm.jsx";
 import ErrorPage from "../src/errorpage";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Layout />,
+    
+        
     errorElement: <ErrorPage />,
 
     //  loader: rootLoader,
@@ -37,6 +41,9 @@ const router = createBrowserRouter([
       // {path: "introduction",element: <Introduction />,},
       {path: "foundertrustee",element: <Foundertrustee />,},
       {path: "videos",element: <Videos />,},
+      {path: "login",element: <LoginForm />,},
+    
+      
 
       {
         path: "introLinks",
@@ -58,8 +65,12 @@ const router = createBrowserRouter([
           { path: "mahadulhafizat", element: <Mahadulhafizat /> },
           { path: "mahadulhuffaz", element: <Mahadulhuffaz /> },
           
+          
         ]
       },
+
+
+      
      
     ],
   },
