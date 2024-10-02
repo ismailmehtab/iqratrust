@@ -41,7 +41,7 @@ const router = createBrowserRouter([
       // {path: "introduction",element: <Introduction />,},
       {path: "foundertrustee",element: <Foundertrustee />,},
       {path: "videos",element: <Videos />,},
-      {path: "login",element: <LoginForm />,},
+      
     
       
 
@@ -74,6 +74,7 @@ const router = createBrowserRouter([
      
     ],
   },
+  {path: "login",element: <LoginForm />,},
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
