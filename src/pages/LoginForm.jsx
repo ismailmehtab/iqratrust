@@ -17,7 +17,7 @@ const LoginForm = () => {
     e.preventDefault();
     if (email === staticEmail && password === staticPassword) {
       setError('');
-      navigate('/');
+      navigate('/admin');
     } else {
       setError('Invalid email or password');
     }
@@ -29,8 +29,7 @@ const LoginForm = () => {
       <form onSubmit={handleLogin}>
       <h2>Login</h2>
         <div >
-        {/* <div className='input'> */}
-          {/* <label>Email:</label> */}
+       
           <div className="input-box" >
           <input
             type="email"
@@ -42,9 +41,7 @@ const LoginForm = () => {
           <FaUser className='icon' />
           </div>
 
-        {/* </div> */}
-        {/* <div className='input'> */}
-          {/* <label>Password:</label> */}
+        
           <div className="input-box">
           <input
             type="password"
@@ -55,7 +52,7 @@ const LoginForm = () => {
           />
           <FaLock className='icon'/>
           </div>
-        {/* </div> */}
+       
         </div>
         
 

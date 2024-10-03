@@ -21,10 +21,12 @@ import { Outlet } from "react-router-dom";
 // import Root,{loader as rootLoader} from '../src/pages/IntroLinks.jsx'
 import Videos from "./pages/Videos.jsx";
 import PreparatoryForVIClass from "./pages/PreparatoryForVIClass.jsx";
-import Login from "./pages/Login.jsx"
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import LoginForm from "./pages/LoginForm.jsx";
 import ErrorPage from "../src/errorpage";
+import Adminpanel from "./pages/Adminpanel.jsx"
+import RequireAuth from "./Components/ProtectedRoutes.jsx";
+
 
 const router = createBrowserRouter([
   {
@@ -75,6 +77,9 @@ const router = createBrowserRouter([
     ],
   },
   {path: "login",element: <LoginForm />,},
+  
+  {path: "admin",element:   <Adminpanel />},
+ 
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

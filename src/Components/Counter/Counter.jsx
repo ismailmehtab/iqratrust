@@ -5,6 +5,7 @@ import ScrollTrigger from "react-scroll-trigger";
 
 const Counter = () => {
   const [counter, setCounter] = useState(false);
+  let bildings = 175
   return (
     <>
       <ScrollTrigger onEnter={()=> setCounter(true)} onExit={()=> setCounter(false)}>
@@ -38,7 +39,7 @@ const Counter = () => {
         <div>
           <p>بلڈنگز</p>
           <h2 className="value">
-            {counter && <CountUp start={0} end={175} duration={2} delay={0} />}
+            {counter && <CountUp start={0} end={bildings} duration={2} delay={0} />}
          </h2>
         </div>
       </div>
