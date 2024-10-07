@@ -28,6 +28,8 @@ const LoginForm = () => {
      <div className="form-container">
       <form onSubmit={handleLogin}>
       <h2>Login</h2>
+      <div>ismailmehtab@gmail.com</div>
+      <div>12345</div>
         <div >
        
           <div className="input-box" >

@@ -70,10 +70,7 @@ const router = createBrowserRouter([
           
         ]
       },
-
-
-      
-     
+  
     ],
   },
   {path: "login",element: <LoginForm />,},

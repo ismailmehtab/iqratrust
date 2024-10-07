@@ -2,9 +2,10 @@ import React from 'react'
 
 function Adminpanel() {
   return (
-
-    
-    <div>Adminpanel</div>
+<>
+    <h2>Hello World</h2>
+    <div>Admin Panel</div>
+    </>
   )
 }
 
