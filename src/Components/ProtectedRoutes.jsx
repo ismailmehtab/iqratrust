@@ -1,17 +1,13 @@
-import React from "react"; 
-import { useLocation } from "react-router-dom";
-export default function RequireAuth ({childern}) {
-    // const {authed} = useAuth();
-    const checkAuth = () => {
-        const isAuth = localStorage.getItem('isAuth');
-        return isAuth
-    }
-    const location = useLocation();
-    const isAuthRes = checkAuth();
-    return isAuthRes === true ? (
-        childern
-    ) : (
-        <Navigate to="admin" replace state={{path:location.pathname}} />
-    
-    );
-}
+import React from 'react';
+import { Navigate } from 'react-router-dom';
+
+const Protected = ({ Component }) => {
+  // Check if the user is authenticated
+  const isAuthenticated = localStorage.getItem('isAuthenticated') === 'true';
+
+  // If authenticated, render the component (AdminPanel)
+  // Otherwise, redirect to the login page
+  return isAuthenticated ? <Component /> : <Navigate to="/" />;
+};
+
+export default Protected;

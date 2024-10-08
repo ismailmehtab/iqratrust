@@ -1,12 +1,22 @@
-import React from 'react'
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
-function Adminpanel() {
+const AdminPanel = () => {
+  const navigate = useNavigate();
+
+  const handleLogout = () => {
+    // Clear the authentication flag in localStorage
+    localStorage.removeItem('isAuthenticated');
+    // Redirect to the login page
+    navigate('/');
+  };
+
   return (
-<>
-    <h2>Hello World</h2>
-    <div>Admin Panel</div>
-    </>
-  )
-}
+    <div>
+      <h1>Welcome to the Admin Panel</h1>
+      <button onClick={handleLogout}>Logout</button>
+    </div>
+  );
+};
 
-export default Adminpanel
+export default AdminPanel;

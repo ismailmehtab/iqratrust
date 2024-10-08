@@ -1,4 +1,4 @@
-import React, { Children } from "react";
+import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App.jsx";
 import "./index.css";
@@ -24,8 +24,9 @@ import PreparatoryForVIClass from "./pages/PreparatoryForVIClass.jsx";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import LoginForm from "./pages/LoginForm.jsx";
 import ErrorPage from "../src/errorpage";
-import Adminpanel from "./pages/Adminpanel.jsx"
-import RequireAuth from "./Components/ProtectedRoutes.jsx";
+import AdminPanel from "./pages/Adminpanel.jsx"
+import Protected from './Components/ProtectedRoutes.jsx';
+
 
 
 const router = createBrowserRouter([
@@ -44,9 +45,6 @@ const router = createBrowserRouter([
       {path: "foundertrustee",element: <Foundertrustee />,},
       {path: "videos",element: <Videos />,},
       
-    
-      
-
       {
         path: "introLinks",
         element: <IntroLinks />,
@@ -75,7 +73,7 @@ const router = createBrowserRouter([
   },
   {path: "login",element: <LoginForm />,},
   
-  {path: "admin",element:   <Adminpanel />},
+  {path: "admin",element: <Protected Component={AdminPanel} />},
  
 ]);
 
@@ -84,5 +82,3 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
-
-
