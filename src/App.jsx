@@ -14,7 +14,7 @@ import Features1 from './Components/Features1/Features1'
 
 const App = () => {
   return (
-    <div>
+    <div >
       
       
        

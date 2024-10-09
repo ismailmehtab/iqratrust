@@ -8,6 +8,7 @@
 body{
     background: #fff;
     overflow-x: hidden;
+    background-color: beige;
 }
 a.NavLink{
     text-decoration: none;
@@ -54,5 +55,8 @@ button{
     font-size: 100px;
 }
 
-
+.layout{
+    width: 90%;
+    margin-left: 5%;
+}
 

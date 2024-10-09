@@ -1,12 +1,13 @@
 import React from "react";
 import "./Hero.css";
 import right_arrow from '../../assets/right-arrow.png'
-import iqratrust from"../../assets/IqraRauzatulAtfal.png"
+import newlogo from "../../assets/New-logo-png.png"
+
 const Hero = () => {
   return (
     <div className="hero container">
       <div className="hero-text">
-        {/* <img src={iqratrust} alt=""  className="iqratrust"/> */}
+        {/* <img src={newlogo} alt=""  className="newlogo"/> */}
         <h1>اقرأ روضۃ الاطفال</h1>
         <p>
           " اقرأ روضۃ الاطفال پاکستان" ایک غیر سرکاری، دینی اور علمی ادارہ ہے۔

@@ -42,11 +42,17 @@
     border-bottom: 1px dashed #121212;
     list-style: none;
     text-decoration: none;
+    
 }
+
 .sidebar-cat-list ul li {
     list-style: none;
     text-decoration: none;
+    
 
+}
+.sidebar-cat-list ul li:hover{
+    background-color: rgba(189, 189, 195,0.5);
 }
 .img-mujallah{
     margin-top: 10rem;

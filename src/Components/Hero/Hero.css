@@ -1,7 +1,7 @@
 .hero{
     margin-top: -50px;
     width: 100%;
-    min-height: 100Vh;
+    min-height: 70Vh;
     background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)) , url('../../assets/bg-3.jpg');
     background-position: center;
     background-size: cover;
@@ -9,7 +9,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 20px;
 }
+
 .iqratrust{
     width: 30rem;
 }
